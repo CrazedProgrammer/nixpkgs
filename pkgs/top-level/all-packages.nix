@@ -8849,6 +8849,8 @@ in
 
   litecli = callPackage ../development/tools/database/litecli {};
 
+  ls_extended = callPackage ../development/tools/misc/ls_extended { };
+
   lsof = callPackage ../development/tools/misc/lsof { };
 
   ltrace = callPackage ../development/tools/misc/ltrace { };
